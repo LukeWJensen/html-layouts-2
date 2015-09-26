@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-style: 10px;
+}
+p {
+	margin: 0 0 40px 0;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	font-weight: 500;
+}
+.page-wrap {
+	padding: 35px 30px;
+}
+.wrap {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header {
+	overflow: hidden;
+	padding: 0 0 50px 0;
+}
+header .col {
+	width: 31%;
+	min-height: 175px;
+	float: left;
+}
+header .one, header .two {
+	margin-right: 3.5%;
+}
+header .one {
+	background-color: #d0021b;
+}
+header .two {
+	background-color: #4a90e2;
+}
+header .three {
+	background-color: #4a4a4a;
+}
+.content-mid {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.content-mid .col {
+	min-height: 420px;
+	float: left;
+}
+.content-mid .col.one {
+	width: 34%;
+	background-color: #d0021b;
+}
+.content-mid .col.two {
+	width: 66%;
+	background-color: #4a90e2;
+}
+.content-bottom {
+	overflow: hidden;
+}
+.content-bottom .col {
+	min-height: 170px;
+	float: left;
+}
+.content-bottom .col.one {
+	background-color: #4a90e2;
+	width: 75%;
+}
+.content-bottom .col.two {
+	background-color: #d0021b;
+	width: 25%;
+}
+.content-bottom .col.two .content {
+	background-color: #4a4a4a;
+	min-height: 170px;
+	max-width: 68%;
+	margin: 0 auto;
+}
